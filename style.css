@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color : #A30505:
+}
+nav{
+   height: 25vh;
+   width: 100vw;
+   color:white;
+   background-color: #A30505;
+   padding-top: 6rem;
+   
+
+}
+nav h4{
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.51px;
+    text-align: center;
+    
+}
+main{
+    background-image: url(images/piano\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 70vh;
+}
+main h4{
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72.61px;
+    text-align: center;
+   color: #A30505;
+   width: 70%;
+   margin: auto;
+}
+main p{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.31px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
