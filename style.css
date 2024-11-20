@@ -45,9 +45,38 @@ main h4{
 main p{
     font-family: Inter;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: bolder;
     line-height: 36.31px;
     text-align: center;
     width: 75%;
     margin: auto;
+}
+main span {
+    color: red;
+}
+
+input {
+    margin-left: 31%;
+    margin-top: 4rem;
+    padding: 6px 12rem;
+    border-radius: 11px;
+    border-color:#A30505;
+}
+button {
+    padding: 7px 30px;
+    background-color:#A30505 ;
+    color: white;
+    margin-left: 46%;
+    margin-top: 2rem;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+div, p {
+    margin-top: 4rem;
+}
+a {
+    font-style: italic;
+    color: #A30505;
+    text-decoration: none;
 }

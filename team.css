@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.team {
+    height: 25vh;
+    width: 100%;
+    background-color: #A30505;
+    color: white;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+div h4 {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.51px;
+    margin-left: 30rem;
+}
+input{
+    margin-left: 13rem;
+    margin-top: 1rem;
+    padding: 8px 5rem;
+    border-radius: 11px;
+    border-color: #A30505;
+}
+.bar {
+    height: 70rem;
+    width: 230px;
+    background-color: #A30505;
+}
+button{
+    background: linear-gradient(180deg, #A30505 0%, #3D0202 100%);
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+}
+.three{
+    padding: 15px 93px;
+}
+.one {
+    padding: 15px 91px;
+}
+.two {
+    text-align: center;
+    padding: 15px 68px;
+}
+
+
