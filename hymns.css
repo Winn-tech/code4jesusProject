@@ -55,13 +55,16 @@
 .hymns .comment{
     width: 50%;
     border-radius: 20px;
+    background-color: #D9D9D9;
     border: 3px solid #A30505;
     padding: 1rem;
+    margin-left: 25%;
+    margin-top: 10rem;
 }
 .hymns .comment .head div{
     background-color: #3D0202;
     height: 65px;
-    width: 65px;
+    width: 70px;
     border-radius: 50%;
 }
 .hymns .comment .head{
@@ -69,17 +72,82 @@
 }
 .hymns .comment .head input{
     height: 65px;
-     border-radius: 20px;
-     width: 100%;
-     padding-left: 20px;
-     display: flex;
-     align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    padding-left: 18px;
+    display: flex;
+    margin-left: 5px;
 }
 .hymns .comment .head input::placeholder{
     font-family: Inter;
     font-size: 30px;
     font-weight: 700;
-    line-height: 36.31px;
-    
-
+    line-height: 35.31px;
 }
+textarea {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.btn-four {
+    padding: 10px;
+    background-color: #A30505;
+    color: white;
+    border-radius: 20px;
+    margin-left: 27rem;
+    margin-top: 10px;
+}
+.comment-two {
+    width: 50%;
+    height: 12rem;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: 3px solid #A30505;
+    padding: 1rem;
+    margin-left: 25%;
+    margin-top: 5rem;
+}
+.head-one {
+    display: flex;
+}
+.head-two {
+    background-color: #3D0202;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.name {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.seam {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.comment-three {
+    width: 50%;
+    height: 12rem;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: 3px solid #A30505;
+    padding: 1rem;
+    margin-left: 25%;
+    margin-top: 1rem;
+}
+.load-more {
+    background-color: #D9D9D9;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+.comment-more {
+    width: 50%;
+    height: 1rem;
+    margin-left: 25%;
+    margin-top: 5rem;
+    font-weight: bolder;
+}
+
