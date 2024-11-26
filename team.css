@@ -6,28 +6,59 @@
 .team {
     height: 25vh;
     width: 100%;
-    background-color: #A30505;
+    background: linear-gradient(to bottom, #3D0202, #A30505);
     color: white;
-    padding-top: 6rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
+    position: relative;
+    
 }
+
+.team input{
+    margin-left: 13rem;
+    margin-top: 1rem;
+    padding: 8px 5rem;
+    border-radius: 11px;
+   
+    border-color: #A30505;
+} 
 div h4 {
     font-family: Inter;
     font-size: 50px;
     font-weight: 700;
     line-height: 60.51px;
-    margin-left: 30rem;
+    text-align: center;
+    /* margin-left: 30rem; */
 }
-input{
-    margin-left: 13rem;
-    margin-top: 1rem;
-    padding: 8px 5rem;
-    border-radius: 11px;
-    border-color: #A30505;
+
+
+.team input{
+    position: absolute;
+    background-color: #F1E8E8;
+    position: absolute;
+    width: 300px;
+    right: 40px;
+}
+
+
+main{
+    display: flex;
+}
+main .content{
+    width: 100%;
+    padding: 3% 5%;
+    background-image: url(images/piano\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: fit-content;
 }
 .bar {
-    height: 70rem;
+    height: auto;
+    min-height: 75vh;
     width: 230px;
     background-color: #A30505;
 }
@@ -49,5 +80,59 @@ button{
     text-align: center;
     padding: 15px 68px;
 }
+
+
+main section{
+    margin-bottom: 4rem;
+}
+section h4{
+    text-align: left;
+    display: block;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.31px;
+    margin-bottom: 2rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 3.3%;
+}
+.cards .card{
+    width: 30%;
+    border: 3px solid #3D0202;
+    position: relative;
+    width: 30%;
+    border-radius: 20px; /* Apply border-radius */
+    padding: 1.5rem 1rem;
+    overflow: hidden; /* Ensures content respects the border-radius */
+    background-clip: padding-box, border-box;
+}
+.card img{
+    width: 91px;
+    height: 91px;
+    margin: auto;
+    margin-bottom: 3rem;
+    
+}
+.cards .card .name{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.31px;
+    text-align: center;
+}
+.cards .card .title{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
 
 
